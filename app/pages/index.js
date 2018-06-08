@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './base.css'
+
 import Phrase from '../containers/Phrase'
 import LanguagePicker from '../containers/LanguagePicker'
 
