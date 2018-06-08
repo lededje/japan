@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default class Index extends React.Component {
+import withRedux from '../components/withRedux'
+import Phrase from '../components/Phrase'
 
+class Index extends React.Component {
   render() {
     return (
       <div>
@@ -11,14 +13,14 @@ export default class Index extends React.Component {
           <radio label="日本語" />
         </radiogroup>
 
-        <PhraseGroup>
+        <div>
           <Phrase english="Hello" japanese="Kon'nichiwa" syllabary="こんにちは" />
           <Phrase english="Thank you" japanese="Arigatō" syllabary="ありがとう" />
           <Phrase english="Yes" japanese="Hai" syllabary="はい" />
           <Phrase english="No" japanese="Īe" syllabary="いいえ" />
-        </PhraseGroup>
+        </div>
 
-        <PhraseGroup>
+        <div>
           <Phrase english="0" japanese="" syllabary="〇" />
           <Phrase english="1" japanese="Ichi" syllabary="一" />
           <Phrase english="2" japanese="Ni" syllabary="二" />
@@ -30,16 +32,16 @@ export default class Index extends React.Component {
           <Phrase english="8" japanese="Hachi" syllabary="八" />
           <Phrase english="9" japanese="Kyuu" syllabary="九" />
           <Phrase english="10" japanese="Juu" syllabary="十" />
-        </PhraseGroup>
+        </div>
 
-        <PhraseGroup>
+        <div>
           <Phrase english="Train" japanese="Ressha" syllabary="列車" />
           <Phrase english="Tram" japanese="Toramu" syllabary="トラム" />
           <Phrase english="Bus" japanese="Basu" syllabary="バス" />
           <Phrase english="Station" japanese="Eki" syllabary="駅" />
-        </PhraseGroup>
+        </div>
 
-        <PhraseGroup>
+        <div>
           <Phrase english="Vegetable" japanese="Yasai" syllabary="野菜" />
           <Phrase english="Chicken" japanese="Chikin" syllabary="チキン" />
           <Phrase english="Beef" japanese="Gyūniku" syllabary="牛肉" />
@@ -47,12 +49,14 @@ export default class Index extends React.Component {
           <Phrase english="Fish" japanese="Ressha" syllabary="魚" />
           <Phrase english="Duck" japanese="Ahiru" syllabary="アヒル" />
           <Phrase english="Shrimp" japanese="Ebi" syllabary="エビ" />
-        </PhraseGroup>
+        </div>
 
-        <PhraseGroup>
+        <div>
           <Phrase english="I don't need a bag" japanese="Watashi wa baggu ga hitsuyō nai" syllabary="私はバッグが必要ない" />
-        </PhraseGroup>
+        </div>
       </div>
     )
   }
 }
+
+export default withRedux(Index)
