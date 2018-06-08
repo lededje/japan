@@ -1,17 +1,16 @@
 import React from 'react'
 
+import Phrase from '../containers/Phrase'
+import LanguagePicker from '../containers/LanguagePicker'
+
 import withRedux from '../components/withRedux'
-import Phrase from '../components/Phrase'
 
 class Index extends React.Component {
   render() {
     return (
       <div>
-        <radiogroup>
-          <radio label="English" />
-          <radio label="Japanese" />
-          <radio label="日本語" />
-        </radiogroup>
+
+        <LanguagePicker />
 
         <div>
           <Phrase english="Hello" japanese="Kon'nichiwa" syllabary="こんにちは" />
