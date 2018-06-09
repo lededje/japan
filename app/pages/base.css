@@ -4,3 +4,7 @@ body {
   color: #fff;
   font-size: 14px;
 }
+
+.wrapper {
+  margin: 16px;
+}

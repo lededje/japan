@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './base.css'
+import styles from './base.css'
 
 import Phrase from '../containers/Phrase'
 import LanguagePicker from '../containers/LanguagePicker'
@@ -12,7 +12,7 @@ import withRedux from '../components/withRedux'
 class Index extends React.Component {
   render() {
     return (
-      <div>
+      <div className={styles.wrapper}>
 
         <LanguagePicker />
 

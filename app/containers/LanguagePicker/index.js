@@ -26,7 +26,7 @@ const LanguagePicker = ({ selectedLanguage, actions }) => (
           [styles.checked]: selectedLanguage === language.id,
         })
         return (
-          <label className={classes}>
+          <label key={language.id} className={classes}>
             <input
               className={styles.input}
               type="radio"
