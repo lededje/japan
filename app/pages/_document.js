@@ -13,6 +13,17 @@ export default class MyDocument extends Document {
               });
             }`
           }}></script>
+          <link rel="manifest" href="/static/manifest.json" />
+
+          <meta name="mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="application-name" content="Japan" />
+          <meta name="apple-mobile-web-app-title" content="Japan" />
+          <meta name="theme-color" content="#000" />
+          <meta name="msapplication-navbutton-color" content="#000" />
+          <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+          <meta name="msapplication-starturl" content="/" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <link rel="stylesheet" href="/static/normalize.css" />
           <link rel="stylesheet" href="/_next/static/style.css" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
