@@ -69,7 +69,7 @@ class Index extends React.Component {
 
         <Title>Common Phrases</Title>
         <PhraseGroup>
-          <Phrase english="I don't need a bag" japanese="Watashi wa baggu ga hitsuyō nai" syllabary="私はバッグが必要ない" />
+          <Phrase english="I don't need a bag" japanese="Fukuro wa iranai" syllabary="袋は要らない" />
         </PhraseGroup>
       </div>
     )
