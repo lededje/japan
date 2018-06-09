@@ -8,6 +8,7 @@ const handle = app.getRequestHandler()
 
 app.prepare().then(() => {
   createServer((req, res) => {
+    res.setHeader('Service-Worker-Allowed', '/');
 
     const parsedUrl = parse(req.url, true)
 
