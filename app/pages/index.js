@@ -27,6 +27,11 @@ class Index extends React.Component {
           <Phrase english="No" japanese="Īe" syllabary="いいえ" />
         </PhraseGroup>
 
+        <PhraseGroup>
+          <Phrase english="Thanks" japanese="Arigatō" syllabary="ありがとう" />
+          <Phrase english="Please" japanese="Onegaishimasu" syllabary="お願いします" />
+        </PhraseGroup>
+
         <Title>Numbers</Title>
 
         <PhraseGroup>
@@ -46,7 +51,7 @@ class Index extends React.Component {
 
         <Title>Transport</Title>
         <PhraseGroup>
-          <Phrase english="Train" japanese="Ressha" syllabary="列車" />
+          <Phrase english="Train" japanese="Densha" syllabary="電車" />
           <Phrase english="Tram" japanese="Toramu" syllabary="トラム" />
           <Phrase english="Bus" japanese="Basu" syllabary="バス" />
           <Phrase english="Station" japanese="Eki" syllabary="駅" />
