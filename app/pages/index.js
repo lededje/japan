@@ -21,7 +21,6 @@ class Index extends React.Component {
 
         <PhraseGroup>
           <Phrase english="Hello" japanese="Kon'nichiwa" syllabary="こんにちは" />
-          <Phrase english="Goodbye" japanese="Sayōnara" syllabary="さようなら" />
           <PhraseSpacer />
           <Phrase english="Yes" japanese="Hai" syllabary="はい" />
           <Phrase english="No" japanese="Īe" syllabary="いいえ" />

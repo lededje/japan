@@ -1,5 +1,5 @@
 const initialState = {
-  type: 'JAPANESE',
+  type: 'ENGLISH',
 };
 
 export default function requestReducer(state = initialState, action = {}) {
