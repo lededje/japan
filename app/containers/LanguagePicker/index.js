@@ -8,7 +8,7 @@ import classNames from 'classnames'
 import { setLanguage } from '../../actions/language';
 
 const languages = [{
-  id: 'ENLGISH',
+  id: 'ENGLISH',
   label: 'English',
 }, {
   id: 'JAPANESE',
