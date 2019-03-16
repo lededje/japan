@@ -20,60 +20,60 @@ class Index extends React.Component {
         <Title>Basics</Title>
 
         <PhraseGroup>
-          <Phrase english="Hello" japanese="Kon'nichiwa" syllabary="こんにちは" />
+          <Phrase english="Hello" polish="Dzień dobry" polishPhonetic="Djen Dobruh" japanese="Kon'nichiwa" japaneseSyllabary="こんにちは" />
           <PhraseSpacer />
-          <Phrase english="Yes" japanese="Hai" syllabary="はい" />
-          <Phrase english="No" japanese="Īe" syllabary="いいえ" />
+          <Phrase english="Yes" polish="Tak" polishPhonetic="Tack" japanese="Hai" japaneseSyllabary="はい" />
+          <Phrase english="No" polish="Nie" polishPhonetic="Nieh" japanese="Īe" japaneseSyllabary="いいえ" />
         </PhraseGroup>
 
         <PhraseGroup>
-          <Phrase english="Thanks" japanese="Arigatō" syllabary="ありがとう" />
-          <Phrase english="Please" japanese="Onegaishimasu" syllabary="お願いします" />
+          <Phrase english="Thanks" polish="Dzięki" polishPhonetic="Djen-ku-ya" japanese="Arigatō" japaneseSyllabary="ありがとう" />
+          <Phrase english="Please" polish="Proszę" polishPhonetic="Prosher" japanese="Onegaishimasu" japaneseSyllabary="お願いします" />
         </PhraseGroup>
 
         <Title>Numbers</Title>
 
         <PhraseGroup>
-          <Phrase english="1" japanese="Ichi" syllabary="一" />
-          <Phrase english="2" japanese="Ni" syllabary="二" />
-          <Phrase english="3" japanese="San" syllabary="三" />
-          <Phrase english="4" japanese="Shi" syllabary="四" />
-          <Phrase english="5" japanese="Go" syllabary="五" />
+          <Phrase english="1" polish="Jeden" polishPhonetic="Yeden" japanese="Ichi" japaneseSyllabary="一" />
+          <Phrase english="2" polish="Dwa" polishPhonetic="Dva" japanese="Ni" japaneseSyllabary="二" />
+          <Phrase english="3" polish="Trzy" polishPhonetic="Ssheh" japanese="San" japaneseSyllabary="三" />
+          <Phrase english="4" polish="Cztery" polishPhonetic="Sh-tery" japanese="Shi" japaneseSyllabary="四" />
+          <Phrase english="5" polish="Pięć" polishPhonetic="Piench" japanese="Go" japaneseSyllabary="五" />
         </PhraseGroup>
         <PhraseGroup>
-          <Phrase english="6" japanese="Roku" syllabary="六" />
-          <Phrase english="7" japanese="Shichi" syllabary="セ" />
-          <Phrase english="8" japanese="Hachi" syllabary="八" />
-          <Phrase english="9" japanese="Kyuu" syllabary="九" />
-          <Phrase english="10" japanese="Juu" syllabary="十" />
+          <Phrase english="6" polish="Sześć" polishPhonetic="sh-esh-ch" japanese="Roku" japaneseSyllabary="六" />
+          <Phrase english="7" polish="Siedem" polishPhonetic="Shedem" japanese="Shichi" japaneseSyllabary="セ" />
+          <Phrase english="8" polish="Osiem" polishPhonetic="Osh-em" japanese="Hachi" japaneseSyllabary="八" />
+          <Phrase english="9" polish="Dziewięć" polishPhonetic="Jevenge" japanese="Kyuu" japaneseSyllabary="九" />
+          <Phrase english="10" polish="Dziesięć" polishPhonetic="Jeh-shench" japanese="Juu" japaneseSyllabary="十" />
         </PhraseGroup>
 
         <Title>Transport</Title>
         <PhraseGroup>
-          <Phrase english="Train" japanese="Densha" syllabary="電車" />
-          <Phrase english="Tram" japanese="Toramu" syllabary="トラム" />
-          <Phrase english="Bus" japanese="Basu" syllabary="バス" />
-          <Phrase english="Station" japanese="Eki" syllabary="駅" />
+          <Phrase english="Train" polish="Pociąg" polishPhonetic="Poch-ongc" japanese="Densha" japaneseSyllabary="電車" />
+          <Phrase english="Tram" polish="Tramwajowy" polishPhonetic="Tram-vi-oveh" japanese="Toramu" japaneseSyllabary="トラム" />
+          <Phrase english="Bus" polish="Autobus" polishPhonetic="Autobus" japanese="Basu" japaneseSyllabary="バス" />
+          <Phrase english="Station" polish="Stacja" polishPhonetic="Stat-si-ya" japanese="Eki" japaneseSyllabary="駅" />
         </PhraseGroup>
 
         <Title>Foods</Title>
         <PhraseGroup>
-          <Phrase english="Vegetable" japanese="Yasai" syllabary="野菜" />
-          <Phrase english="Chicken" japanese="Chikin" syllabary="チキン" />
-          <Phrase english="Beef" japanese="Gyūniku" syllabary="牛肉" />
-          <Phrase english="Pork" japanese="Butaniku" syllabary="豚肉" />
+          <Phrase english="Vegetable" polish="Warzywo" polishPhonetic="Vagivo" japanese="Yasai" japaneseSyllabary="野菜" />
+          <Phrase english="Chicken" polish="Kurczak" polishPhonetic="Cur-chack" japanese="Chikin" japaneseSyllabary="チキン" />
+          <Phrase english="Beef" polish="Wołowina" polishPhonetic="Vo-wo-vina" japanese="Gyūniku" japaneseSyllabary="牛肉" />
+          <Phrase english="Pork" polish="Wieprzowina" polishPhonetic="Viep-sho-vina" japanese="Butaniku" japaneseSyllabary="豚肉" />
         </PhraseGroup>
         <PhraseGroup>
-          <Phrase english="Fish" japanese="Ressha" syllabary="魚" />
-          <Phrase english="Duck" japanese="Ahiru" syllabary="アヒル" />
-          <Phrase english="Shrimp" japanese="Ebi" syllabary="エビ" />
-          <Phrase english="Rice" japanese="Gohan" syllabary="ご飯" />
-          <Phrase english="Water" japanese="Mizu" syllabary="水" />
+          <Phrase english="Fish" polish="Ryba" polishPhonetic="Rib-a" japanese="Ressha" japaneseSyllabary="魚" />
+          <Phrase english="Duck" polish="Kaczka" polishPhonetic="Catch-ka" japanese="Ahiru" japaneseSyllabary="アヒル" />
+          <Phrase english="Shrimp" polish="Krewetka" polishPhonetic="Krevet-ka" japanese="Ebi" japaneseSyllabary="エビ" />
+          <Phrase english="Rice" polish="Ryż" polishPhonetic="Rish" japanese="Gohan" japaneseSyllabary="ご飯" />
+          <Phrase english="Water" polish="Woda" polishPhonetic="Voda" japanese="Mizu" japaneseSyllabary="水" />
         </PhraseGroup>
 
         <Title>Common Phrases</Title>
         <PhraseGroup>
-          <Phrase english="I don't need a bag" japanese="Fukuro wa iranai" syllabary="袋は要らない" />
+          <Phrase english="I don't need a bag" polish="Nie potrzebuję torby" polishPhonetic="Nieh potser-boo-yeah tor-beh" japanese="Fukuro wa iranai" japaneseSyllabary="袋は要らない" />
         </PhraseGroup>
       </div>
     )

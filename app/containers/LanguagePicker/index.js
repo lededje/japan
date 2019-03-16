@@ -11,10 +11,16 @@ const languages = [{
   id: 'ENGLISH',
   label: 'English',
 }, {
+  id: 'POLISH',
+  label: 'Polish'
+}, {
+  id: 'POLISH_PHONETIC',
+  label: 'Phonetic Polish'
+}, {
   id: 'JAPANESE',
   label: 'Japanese',
 }, {
-  id: 'SYLLABARY',
+  id: 'JAPANESE_SYLLABARY',
   label: '日本語'
 }]
 

@@ -3,13 +3,16 @@ import React from 'react';
 
 import styles from './styles.css'
 
-const Phrase = ({ english, japanese, syllabary, language }) => {
+const Phrase = ({ english, polish, polishPhonetic, japanese, japaneseSyllabary, language }) => {
   return (
     <span className={styles.phrase}>
       {(() => {
         switch(language.type) {
           case 'JAPANESE': return japanese
-          case 'SYLLABARY': return syllabary
+          case 'JAPANESE_SYLLABARY': return japaneseSyllabary
+          case 'POLISH': return polish
+          case 'POLISH_PHONETIC': return polishPhonetic
+          case 'ENGLISH':
           default: return english
         }
       })()}
