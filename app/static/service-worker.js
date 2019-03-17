@@ -4,7 +4,7 @@ if (workbox) {
   workbox.routing.registerRoute(
     /.*/,
     workbox.strategies.networkFirst({
-      cacheName: 'japan',
+      cacheName: 'stranger-here-myself',
     })
   );
 }
