@@ -1,5 +1,9 @@
 {
     "version": 2,
+    "alias": "stranger-here-myself.miles.dev",
+    "env": {
+      "NODE_ENV": "production"
+    },
     "name": "stranger-here-myself",
     "builds": [
         { "src": "package.json", "use": "@now/static-build" }
