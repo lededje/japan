@@ -3,7 +3,7 @@ import React from 'react';
 
 import styles from './styles.css'
 
-const Phrase = ({ english, polish, polishPhonetic, japanese, japaneseSyllabary, language }) => {
+const Phrase = ({ english, polish, polishPhonetic, japanese, japaneseSyllabary, italian, language }) => {
   return (
     <span className={styles.phrase}>
       {(() => {
@@ -12,6 +12,7 @@ const Phrase = ({ english, polish, polishPhonetic, japanese, japaneseSyllabary, 
           case 'JAPANESE_SYLLABARY': return japaneseSyllabary
           case 'POLISH': return polish
           case 'POLISH_PHONETIC': return polishPhonetic
+          case 'ITALIAN': return italian;
           case 'ENGLISH':
           default: return english
         }

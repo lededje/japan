@@ -10,18 +10,23 @@ import { setLanguage } from '../../actions/language';
 const languages = [{
   id: 'ENGLISH',
   label: 'English',
-}, {
-  id: 'POLISH',
-  label: 'Polish'
-}, {
-  id: 'POLISH_PHONETIC',
-  label: 'Phonetic Polish'
-}, {
-  id: 'JAPANESE',
-  label: 'Japanese',
-}, {
-  id: 'JAPANESE_SYLLABARY',
-  label: '日本語'
+},
+// {
+//   id: 'POLISH',
+//   label: 'Polish'
+// }, {
+//   id: 'POLISH_PHONETIC',
+//   label: 'Phonetic Polish'
+// }, {
+//   id: 'JAPANESE',
+//   label: 'Japanese',
+// }, {
+//   id: 'JAPANESE_SYLLABARY',
+//   label: '日本語'
+// },
+{
+  id: 'ITALIAN',
+  label: 'Italiano'
 }]
 
 const LanguagePicker = ({ selectedLanguage, actions }) => (
